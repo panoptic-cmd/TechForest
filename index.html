@@ -4,19 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+         h1 {
+      display: flex;
+      align-items: center;
+      gap: 10px; /* espaço entre logo e texto */
+    }
+    h1 img {
+      height: 40px; /* ajusta o tamanho do logo */
+    }
+    </style>
 </head>
 <body>    
 <nav> 
     <ul>
-        <li>Estrutura do Dia</li>
-        <li>Equipa</li>
-        <li>Horário</li>
+        <li> <a href="#estrutura">Estrutura  do Dia</a> </li>
+        <li> <a href="#equipa">Equipa</a> </li>
+        <li> <a href="#horario">Horário</a> </li>
+        
     </ul>
 </nav>
 <header>
-<h1>TechForest</h1>
+<h1> <img src="https://thumbs.dreamstime.com/b/creative-simple-dragons-silhouettes-logo-stylized-vector-illustrations-simple-dragons-silhouettes-logo-130475058.jpg" alt="TechForest Logo"> TechForest</h1>
 <h2>Aventure-se com a Natureza</h2>
-<aside>citação</aside>
+<aside><em>A melhor experiência da nossa vida</em></aside>
+<p>João Silva & Maria Lopes, Fundadores da TechForest</p>
 </header>
 <br>
 <br>
@@ -26,16 +38,19 @@
 <Article>
    <h3>Estrutura do dia</h3> 
    <p>texto sobre estrutura do dia...</p>
+   <a href="#">saber mais</a>
 </Article>
 
 <Article>
    <h3>Equipa</h3> 
    <p>texto sobre a nossa Equipa...</p>
+   <a href="#">ver video</a>
 </Article>
     
 <Article>
    <h3>Horário</h3> 
    <p>texto com o Horário...</p>
+   <a href="#">registar</a>
 </Article>    
 </section>
 
@@ -45,15 +60,19 @@
 <div>
     <article><h4>titulo</h4>
         <p>conteudo</p>
+        <img src="#" alt="training.png">
     </article>
     <article><h4>titulo</h4>
         <p>conteudo</p>
+        <img src="#" alt="get-ready.png">
     </article>
     <article><h4>titulo</h4>
         <p>conteudo</p>
+        <img src="#" alt="fly.png">
     </article>
     <article><h4>titulo</h4>
         <p>conteudo</p>
+        <img src="#" alt="jump.png">
     </article>
 </div>
 </section>
@@ -61,13 +80,17 @@
 <section>
 <h3>Secção 3: Equipa </h3>
 <p>Membros da Equipa</p>
+<hr>
 <div>
-<article>membro 1</article>
-<article>membro 1</article>
-<article>membro 1</article>
+<article><h4>membro 1</h4></article>
+<img src="#" alt="foto membro 1.png">
+<article><h4>membro 2</h4></article>
+<img src="#" alt="foto membro 2.png">
+<article><h4>membro 3</h4></article>
+<img src="#" alt="foto membro 3">
 </div>
 </section>
-
+<hr>
 <section>
     <h3>Horário</h3>
     <h3>Agendar um Horário</h3>
@@ -122,12 +145,15 @@
 
 <footer>
     <section><h5>Informações de Contacto</h5>
-    <address>TechForest, Rua da Natureza 12, 1000-001 Lisboa, Portugal, +351 912 345 678 </address>
+    <address>TechForest 
+        <br> Rua da Natureza 12 
+        <br> 1000-001 Lisboa, Portugal
+        <br> +351 912 345 678 </address>
     <h5>Segue-nos</h5>
     <ul>
-        <li>Twitter</li>
-        <li>Facebook</li>
-        <li>Instagram</li>
+        <li><a href="https://x.com/?lang=pt" target="_blank">Twitter</a></li>
+        <li><a href="https://www.facebook.com/?locale=pt_PT" target="_blank">Facebook</a></li>
+        <li> <a href="https://www.instagram.com/">Instagram</a></li>
     </ul>
     </section>
 </footer>
