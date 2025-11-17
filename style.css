@@ -1,0 +1,11 @@
+.gray-section {
+    background-color: #ae9393; /* light gray */
+    padding: 20px;
+    border-radius: 6px; /* optional, just makes corners smoother */
+}
+
+.darkgray-section {
+    background-color: #796e6e; /* light gray */
+    padding: 20px;
+    border-radius: 6px; /* optional, just makes corners smoother */
+}
